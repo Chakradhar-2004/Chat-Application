@@ -1,0 +1,70 @@
+.Container {
+  background-color: #dcc48e;
+  height: 85vh;
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Brand {
+  margin: 20px 0;
+}
+
+.Brand img {
+  height: 70px;
+  width: 100%;
+}
+
+.Contacts {
+  flex: 1;
+  width: 100%;
+  overflow-y: auto; /* Ensure scrolling is enabled */
+  max-height: calc(85vh - 100px); /* Adjust based on other elements' height */
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact.selected {
+  background-color: #f0f0f0;
+}
+
+.Avatar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.UserName h1 {
+  font-size: 16px;
+  margin: 0;
+  color: black;
+}
+
+.CurrentAvatar img {
+  height: 45px;
+  width: 45px;
+}
+.CurrentAvatar{
+  display: flex;
+}
+
+/* Optional: Add custom scrollbar styles */
+.Contacts::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Contacts::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.Contacts::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

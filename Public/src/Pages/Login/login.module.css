@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&display=swap');
+
+
+.Brand img {
+  height: 100px;
+  width: 300px;
+  border-radius: 5rem;
+}
+
+.Form {
+  font-family: Pacifico, cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  border-radius: 2rem;
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  line-height: 2rem;
+  background-color: #dad7cd;
+}
+
+button {
+  font-family: Pacifico, cursive;
+  font-weight: 400;
+  font-style: normal;
+}

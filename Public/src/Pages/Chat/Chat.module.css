@@ -1,0 +1,15 @@
+.Container{
+    background-color: #505168;
+    height: 100vh;
+    display: flex;
+   
+}
+.Box{
+    background-color: #b3c0a4;
+    height: 85vh;
+    width: 175vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    grid-template-columns: 25% 75%;
+}

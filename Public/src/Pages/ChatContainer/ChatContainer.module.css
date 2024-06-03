@@ -1,0 +1,68 @@
+.ChatContainer {
+    position: absolute;
+    top: 8.9%;
+    right: 10%;
+    background-color: #65afff;
+    height: 85vh;
+    width: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust flex properties for header content */
+.Header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #65afff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.userDetails {
+    display: flex;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.Header img {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.ChatMessages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    max-width: 60%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.sended {
+    align-self: flex-end;
+    background-color: black;
+    color: red;
+}
+
+.recieved {
+    align-self: flex-start;
+    background-color: #fff;
+    color: blue;
+    border: 1px solid #ddd;
+}
+
+.ChatInputContainer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}

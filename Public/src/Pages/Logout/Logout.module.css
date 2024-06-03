@@ -1,0 +1,18 @@
+.Logout {
+    position: relative;
+    left: 78%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Logout button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.Logout button svg {
+    width: 2rem;
+    height: 2rem;
+}
